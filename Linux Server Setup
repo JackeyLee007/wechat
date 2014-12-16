@@ -36,6 +36,12 @@ cp ./build/lib.linux-i686-2.7/_sqlite3.so  <path/to/python home>/lib/python2.7/l
 virtualenv <env name>
 source <path/to/env>/bin/activate
 ```
+## 4.1 virtualenvwrapper
+This is a wrapper of virtualenv which can help manage multiple virtualenv. 
+source /usr/local/bin/virtualenvwrapper.sh
+mkvirtualenv
+workon
+
 ## 5. Django
 ```
 pip install Django==1.7.1
